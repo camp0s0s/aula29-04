@@ -16,6 +16,7 @@ header{
     background: yellow;
     text-align: center;
     padding: 20px;
+    width: 100%;
 }
 #containerAside{
     width: 100%;
@@ -42,10 +43,11 @@ aside{
 footer{
     background: greenyellow;
     padding: 50px;
+    width: 100%;
 }
 
 
-@media(min-width: 70px){
+@media(min-width: 700px){
     #container{
         flex-direction: column;
     }
